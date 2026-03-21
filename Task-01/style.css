@@ -1,0 +1,64 @@
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center box */
+.container {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Input + button row */
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #eee;
+  margin: 8px 0;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* delete button */
+li button {
+  background: red;
+}
+
+/* clear button */
+.clear-btn {
+  margin-top: 10px;
+  width: 100%;
+  background: #555;
+}
