@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>IPL Teams</h2>
+
+        <div class="gallery">
+            <div class="card" data-team="csk">
+            <img src="assets/images/csk.jpg">
+            <p>CSK</p>
+            </div>
+
+            <div class="card" data-team="mi">
+            <img src="assets/images/mi.jpg">
+            <p>MI</p>
+            </div>
+
+            <div class="card" data-team="rcb">
+            <img src="assets/images/rcb.jpg">
+            <p>RCB</p>
+            </div>
+        </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal" id="modal">
+        <span class="close">&times;</span>
+
+        <div class="modal-content">
+            <img id="modalImg">
+            <h3 id="modalTitle"></h3>
+            <ul id="modalPoints"></ul>
+        </div>
+    </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>    
