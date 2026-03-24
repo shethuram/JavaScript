@@ -27,7 +27,7 @@ Build a simple interactive quiz application using JavaScript with dynamic questi
 ## Correct
 ![Correct](./screenshots/correct.png)
 ## Wrong
-[!Wrong](./screenshots/wrong.png)
+![Wrong](./screenshots/wrong.png)
 
 ---
 ### Result Screen
