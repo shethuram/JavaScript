@@ -15,6 +15,12 @@ Build a chat interface that simulates real-time messaging without a backend.
 ---
 
 ## Output
+
+### Chat UI
 ![Chat UI](screenshots/chat-ui.png)
+
+### Message Flow
 ![Message Flow](screenshots/message.png)
+
+### Typing Indicator
 ![Typing Indicator](screenshots/typing.png)
