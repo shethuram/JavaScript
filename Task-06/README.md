@@ -21,7 +21,7 @@ To implement a dynamic list that supports drag-and-drop reordering with both ins
 
 
 - Insert Position (Line Indicator)  
-  ![Insert](screenshotsoutput-2.png)
+  ![Insert](screenshots/soutput-2.png)
 
 - Swap Highlight  
-  ![Swap](screenshotsoutput-4.png)
+  ![Swap](screenshots/output-3.png)
