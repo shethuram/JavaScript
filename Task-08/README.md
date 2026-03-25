@@ -18,26 +18,27 @@ Implement a basic Single Page Application (SPA) using hash-based routing without
 ---
 
 ##  Folder Structure
-Task-08/ 
-│ 
-├── index.html 
-├── style.css 
-├── app.js 
-│ 
-├── components/ 
-│ ├── header.html 
-│ └── footer.html 
-│ 
-├── pages/ 
-│ ├── home.html 
-│ └── register.html 
+
+```
+Task-08/
+│
+├── index.html
+├── style.css
+├── app.js
+│
+├── components/
+│   ├── header.html
+│   └── footer.html
+│
+├── pages/
+│   ├── home.html
+│   └── register.html
 │
 ├── assets/
-│ └── images/
-|
+│   └── images/
+│
 └── screenshots/
-
-
+```
 
 ---
 
