@@ -1,4 +1,4 @@
-const API_KEY = "4302fed7e98aa01e59d11ab09f8b23df";
+const API_KEY = "4302fed7e98aa01e59d11ab09f8b23d";
 
 async function getWeather() {
   const input = document.getElementById("city");
@@ -17,11 +17,13 @@ async function getWeather() {
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
     );
 
+    const data = await response.json(); 
+
     if (!response.ok) {
-      throw new Error("City not found");
+      // extract API error message
+      throw new Error(data.message || "Something went wrong");
     }
 
-    const data = await response.json();
 
     const temp = data.main.temp;
     const humidity = data.main.humidity;
@@ -34,7 +36,7 @@ async function getWeather() {
     `;
 
   } catch (error) {
-    result.innerHTML = "<p>City not found or error fetching data</p>";
+    result.innerHTML = `<p>${error.message}</p>`;
   }
 }
 
