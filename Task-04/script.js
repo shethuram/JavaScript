@@ -1,4 +1,4 @@
-const API_KEY = "REMOVED";
+const API_KEY = CONFIG.API_KEY;
 
 async function getWeather() {
   const input = document.getElementById("city");
