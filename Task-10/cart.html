@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="cart-header">
+  <a href="index.html" class="back-btn">← Back to Home</a>
+</div>
+
+<h1>🛒 Your Cart</h1>
+
+<div class="cart-container">
+
+  <!-- LEFT SIDE -->
+  <div id="cart" class="cart-left"></div>
+
+  <!-- RIGHT SIDE (SUMMARY) -->
+  <div class="cart-right">
+    <h3>Order Summary</h3>
+
+    <p id="subtotal"></p>
+    <p id="cgst"></p>
+    <p id="sgst"></p>
+    <p id="fee"></p>
+
+    <hr>
+
+    <h3 id="finalTotal"></h3>
+
+    <button id="checkoutBtn">Checkout</button>
+  </div>
+
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Payment Successful 🎉</h2>
+    <button onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+  <script type="module" src="js/cartPage.js"></script>
+</body>
+</html>
